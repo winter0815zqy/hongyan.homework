@@ -1,0 +1,32 @@
+
+.box {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 200px auto;
+}
+
+.box div {
+    width: 200px;
+    height: 80px;
+    background-color: grey;
+}
+.box a{
+    text-decoration: none;
+}
+.box p{
+    color:red;
+}
+.box div:hover{
+    background-color: yellow;   
+    font-size: 15px;
+}
+.box ul li:nth-child(1) {
+    font-size: 20px; 
+}
+.box ul li:nth-child(2) {
+    font-size: 30px;
+}
+.box ul li:nth-child(3) {
+    font-size: 40px;
+}
